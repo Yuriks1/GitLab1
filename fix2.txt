@@ -29,4 +29,7 @@ git add fix2.txt
 git commit -m "Add fix2.txt"
 git switch main
 git cherry-pick 9855
+git remote add origin https://github.com/Yuriks1/GitLab1.git
+git branch -M main
+git push -u origin main
 
