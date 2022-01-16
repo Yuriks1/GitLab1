@@ -1,0 +1,32 @@
+git init 
+git status 
+git add README.md 
+git commit –m “Initial commit ”
+git checkout –b feature1 
+git status 
+git add README.md 
+git commit –m “Add dog and change moose to mouse” 
+git switch main 
+git status 
+git add README.md 
+git commit –m “ Change moose to mahmut” 
+git merge feature1
+git status
+git add README.md
+git commit -m "Solve conflict"'
+git tag extinct
+git reset --hard HEAD^
+git branch feature2
+git status
+git add README.md
+git commit -m "Change first letter to capital"
+git switch feature2
+git status
+git add fix1.txt
+git commit -m "Add fix1.txt"
+git status
+git add fix2.txt
+git commit -m "Add fix2.txt"
+git switch main
+git cherry-pick 9855
+
